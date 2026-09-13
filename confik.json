@@ -1,0 +1,42 @@
+{
+  "app": "SuryaVPN",
+  "format": "suryavpn-config",
+  "version": 1,
+  "exportedAt": 1234567890000,
+  "profiles": [
+    {
+      "accountName": "SSH Contoh",
+      "modeIndex": 2,
+      "host": "contoh.com",
+      "port": 443,
+      "username": "user",
+      "password": "pass",
+      "sni": "quiz.vidio.com",
+      "payload": "GET /cdn-cgi/trace HTTP/1.1[crlf]Host: contoh.com[crlf][crlf]GET-RAY / [protocol][crlf]Host: [host][crlf]Connection: Keep-Alive[crlf]Upgrade: websocket[crlf]User-Agent: [ua][crlf][crlf]",
+      "proxyHost": "1.1.1.1",
+      "proxyPort": "80",
+      "tlsVersion": "",
+      "useWebSocket": false,
+      "wsPath": "",
+      "proxyRawMode": false,
+      "xrayLink": "",
+      "customHeaders": "",
+      "ignoreCertErrors": false,
+      "dns1": "",
+      "dns2": ""
+    },
+    {
+      "accountName": "Xray Contoh",
+      "modeIndex": 5,
+      "xrayLink": "vless://uuid@www.test.com:443?security=tls&sni=www.test.com&type=ws&path=%2F#Konfig%20contoh",
+      "host": "",
+      "port": 443,
+      "sni": "",
+      "payload": "",
+      "proxyHost": "",
+      "proxyPort": "",
+      "customHeaders": "",
+      "ignoreCertErrors": false
+    }
+  ]
+}
